@@ -18,18 +18,11 @@ class: center, middle, inverse, title-slide
 ## by learning modified paths
 ### Joshua J Bon
 ### Mathematics Sciences, QUT
-### 22-04-2022
+### 18-05-2022
 
 ---
 
-class: center, middle
-
-## Acknowledgement of Country
-
-&lt;p style="text-align: center;"&gt;
-QUT acknowledges the Turrbal and Yugara as the First Nations owners of the lands where QUT now stands. We pay respect to their Elders, lores, customs and creation spirits. We recognise that these lands have always been places of teaching, research and learning. QUT acknowledges the important role Aboriginal and Torres Strait Islander people play within the QUT community.  
-&lt;/p&gt;
-
+class: list-space
 
 
 &lt;style&gt;
@@ -43,9 +36,6 @@ padding: 0.25cm;
 }
 
 &lt;/style&gt;
-
----
-class: list-space
 
 ## Acknowledgements 
 
@@ -187,11 +177,6 @@ class: list-space
 .content-box-purple[
 `$$\eta_0 \overset{G_0}{\longrightarrow} \hat\eta_0 \overset{M_1}{\longrightarrow} \eta_1$$`
 ]
-- `\(G_0\)` potential, weights initial **distribution**
- - `\(\hat\gamma_0(\text{d}x) = \eta_0(\text{d}x)G_0(x)\)`
- - `\(\hat\eta_0(\text{d}x) = \hat\gamma_0(\text{d}x) /Z_1\)`
-- `\(M_1\)` kernel, mutates updated **distribution**
- - `\(\eta_1(S) = \int_{\mathsf{X}} \eta_0(\text{d}x)M_1(x, S)\)`
 
 ]
 
@@ -204,14 +189,11 @@ class: list-space
 ![](index_files/figure-html/fk-viz-2-1-1.png)&lt;!-- --&gt;
 ]
 .pull-right[
+
 .content-box-purple[
 `$$\eta_0^N \overset{G_0}{\longrightarrow} \hat\eta_0^N \overset{M_1}{\longrightarrow} \eta_1^N$$`
 ]
-- `\(G_0\)` potential, weights initial **particles**
- - Normalise with self-normalised IS
- - Estimate `\(Z_1\)`
- - Resample?
-- `\(M_1\)` kernel, mutates updated **particles**
+
 
 ]
 
@@ -273,7 +255,7 @@ class: list-space
 &lt;br&gt;
 .content-box-purple[
 
-How do we improve an existing Feynman-Kac model?
+How do we improve an existing Feynman-Kac model (for use in SMC)?
 
 ]
 
@@ -774,11 +756,7 @@ class: list-space
 ---
 class: inverse, center, middle, hide-logo
 
-## Thank you for listening ... 
-
---
-
-## at 5PM before a long weekend!
+## Thank you for listening!
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
